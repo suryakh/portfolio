@@ -1,0 +1,33 @@
+/* div {
+    border:1px solid black;
+    
+} */
+
+.proficiencies span{
+    margin-top: 60px;
+    font-size: 40px;
+    
+}
+.maindiv {
+    margin-top: 100px;
+    box-shadow: 0 0 20px grey;
+}
+.circle{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    text-align: center;
+    border: 10px solid #1565c0;
+    background-color: white;
+    box-shadow: inset 0 0 50px 
+    #90caf9;
+    padding-top: 15%;
+    /* box-shadow:  0 0 50px grey; */
+
+}
+
+.circle h1 {
+    margin:30px;
+}

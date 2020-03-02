@@ -1,0 +1,51 @@
+.hide {
+    visibility: hidden;
+}
+.content {
+    text-align: left;
+}
+
+.contentimg {
+    height: 310px;
+    width: 310px;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+
+.greeting span {
+    padding: 10px;
+    color: white;
+    background-color: #1565C0;
+    border-radius: 20px 0px 20px 0px;
+}
+.contentinside h1 {
+    color: #ff1744;
+    font-family: Artifika;
+    /* color:#f6a26a; */
+    text-shadow: 4px 3px #908c8c;
+}
+.details p {
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.contentimg img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    /* margin: 20px; */
+    box-shadow: 0 0 0 10px #1565C0, 0 0 0 25px #1565c0a8, 0 0 50px 50px #1565c075
+}
+
+.socialicon a:hover {
+    color: #1565c0;
+}
+
+.socialicon a {
+    color: black;
+    border-radius: 50%;
+    /* box-shadow: 2px 2px 4px 2px rgb(42, 28, 245);/ */
+}

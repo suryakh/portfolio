@@ -1,0 +1,122 @@
+/* * {
+    border:2px solid black
+} */
+
+h1 p {
+    font-family: 'Roboto';
+}
+.skillsdiv {
+    list-style: none;
+    text-align: left;
+}
+.skillsbar,.skillstwo {
+    box-shadow: 4px 4px 20px grey;
+    /* background-color: white; */
+
+}
+.chartpie {
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 4px 4px 20px grey;
+    
+}
+
+.skillsbar li,.skillstwo li {
+    margin: 10px 0;
+}
+.bar {
+    background:#1565C0 ;
+    display: block;
+    border: 1px solid blue;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px grey;
+
+}
+.bar span {
+    height: 10px;
+    float: left;
+    background-color: #90CAF9;
+    
+}
+.html {
+    width: 90%;
+}
+.css {
+    width: 80%;
+}
+.javascript {
+    width: 80%;
+}
+.react {
+    width: 80%;
+}
+.boostrap {
+    width:75%
+
+}
+.material-ui {
+    width: 40%;
+}
+
+svg {
+    position: relative;
+    width: 200px;
+    height:200px;
+    z-index: 1;
+}
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke:#1565C0;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2){
+    stroke-dasharray: 570;
+    stroke-dashoffset: 570;
+}
+/* svg circle:nth-child(2){
+    stroke-dashoffset: calc(570 - (570*90)/100);
+    stroke:green
+} */
+.chartpie > div:nth-of-type(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(570 - (570*60)/100);
+    stroke:#90CAF9
+}
+.chartpie > div:nth-of-type(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(570 - (570*70)/100);
+    stroke:#90CAF9
+}
+.chartpie > div:nth-of-type(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(570 - (570*60)/100);
+    stroke:#90CAF9
+}
+
+.percentage{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #1565C0;
+}
+.percentage .number {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.skillspie h2 {
+    font-size: 50px;
+}
+.skillspie h2 span {
+    font-size: 20px;
+}
