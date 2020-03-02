@@ -19,10 +19,8 @@
     border-radius: 20px 0px 20px 0px;
 }
 .contentinside h1 {
-    color: #ff1744;
+    color: #470CCA;
     font-family: Artifika;
-    /* color:#f6a26a; */
-    text-shadow: 4px 3px #908c8c;
 }
 .details p {
     color: black;

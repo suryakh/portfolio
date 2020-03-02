@@ -6,6 +6,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Contact from './Contact'
 import Proficiencies from './Proficiencies'
+import menuimg from './Icons/menu.svg'
 
 class Nav extends React.Component {
   constructor(props) {
@@ -42,9 +43,12 @@ class Nav extends React.Component {
       <div className="container-fluid" ref={el => (this.div = el)}>
 
         <nav class="navbar groups navbar-expand-lg" id="navbar">
-          <div className="navbar-toggler bg-danger" style={{ "height": "20px", "width": "50px" }} type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            {/* <span className="navbar-toggler-icon"></span>sfsadasdasfd */}
-          </div>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <img src= {menuimg} />
+            {/* <span className="navbar-toggler-icon"></span>
+
+             */}
+          </button>
           <div className="collapse navbar-collapse offset-lg-2 offset-xl-4 offset-md-0 offset-sm-0" id="navbarTogglerDemo01">
             <ul className="navbar-nav mr-auto">
               {this.state.nav_list.map((ele) =>

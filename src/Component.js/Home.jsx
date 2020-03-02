@@ -33,8 +33,8 @@ export default class Home extends Component {
         return (
             <div className="homediv container" data-ref="home" ref={el => (this.div = el)}>
                 <div className="row" style={{ "margin-top": "200px" }}>
-                    <div data-aos="fade-up" data-aos-duration="1000" className="image col-xl-6 col-lg-12 col-md-12 col-sm-12" data-ref="home">
-                        <div className="contentimg">
+                    <div data-aos="fade-up" data-aos-duration="1000" className="image col-xl-6 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-ceneter" data-ref="home">
+                        <div className="contentimg col-12">
                             <img src="./profile.jpg" alt="profilepic" />
                         </div>
                     </div>

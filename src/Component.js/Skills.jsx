@@ -81,10 +81,10 @@ export default class Skills extends Component {
                     <div className="mt-5 cl-12">
                         <div className="d-flex justify-content-center">
                             <div className="row chartpie">
-                                <div className="col-xl-4 col-lg-12 col-sm-12 col-md-12 d-flex justify-content-center">
+                                <div className="col-xl-4 col-lg-12 col-sm-12 col-md-12 mb-5 d-flex justify-content-center">
                                     <div className="box ">
                                         <div className="percentage">
-                                            <svg>
+                                            <svg id ="circlesvg">
                                                 <circle cx="90" cy="90" r="90"></circle>
                                                 <circle cx="90" cy="90" r="90"></circle>
                                             </svg>
@@ -96,10 +96,10 @@ export default class Skills extends Component {
                                         {/* <h1 className="text">Python</h1> */}
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-lg-12 col-sm-12 col-md-12 d-flex justify-content-center">
+                                <div className="col-xl-4 col-lg-12 col-sm-12 col-md-12 mb-5 d-flex justify-content-center">
                                     <div className="box ">
                                         <div className="percentage">
-                                            <svg>
+                                            <svg id ="circlesvg">
                                                 <circle cx="90" cy="90" r="90"></circle>
                                                 <circle cx="90" cy="90" r="90"></circle>
                                             </svg>
@@ -111,10 +111,10 @@ export default class Skills extends Component {
                                         {/* <h1 className="text">Flask</h1> */}
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-lg-12 col-sm-12 col-md-12 d-flex justify-content-center">
+                                <div className="col-xl-4 col-lg-12 col-sm-12 col-md-12 mb-5 d-flex justify-content-center">
                                     <div className="box ">
                                         <div className="percentage">
-                                            <svg>
+                                            <svg id ="circlesvg">
                                                 <circle cx="90" cy="90" r="90"></circle>
                                                 <circle cx="90" cy="90" r="90"></circle>
                                             </svg>

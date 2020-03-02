@@ -1,8 +1,18 @@
 import React, { Component } from 'react'
 import './Css/Proficiencies.css'
+import GitHubCalendar from 'react-github-calendar';
 
 export default class Proficiencies extends Component {
     render() {
+        const defaultTheme = {
+            background: 'transparent',
+            text: '#000',
+            grade4: '#0D47A1',
+            grade3: '#1976D2',
+            grade2: '#42A5F5',
+            grade1: '#81D4FA',
+            grade0: '#ebedf0',
+          };
         return (
             <div>
                 <h1 className="header" data-aos="fade-up" data-aos-duration="1000">Proficiencies</h1>
@@ -55,6 +65,11 @@ export default class Proficiencies extends Component {
 
                     </div>
                 </div>
+                    <div className="container mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div className="col-12 githubchart bg-white mt-5">
+                    <GitHubCalendar username="suryakh" fontSize={22} blockSize={20} blockMargin={6}  theme={defaultTheme} />
+                    </div>
+                    </div>
             </div>
         )
     }

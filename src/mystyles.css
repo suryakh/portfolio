@@ -8,6 +8,9 @@
     height: 70px;
     position: absolute;
   }
+.navbar-toggler {
+  z-index: 99999;
+}
   .screen {
     padding-top: 100px;
     padding-bottom: 100px;
