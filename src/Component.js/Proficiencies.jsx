@@ -43,7 +43,7 @@ export default class Proficiencies extends Component {
                         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div className="col-xl-12 d-flex justify-content-center">
                             <div className="circle">
-                                <h1>100+</h1>
+                                <h1>300+</h1>
                             </div>
                         </div>
                             <div className="col-12">

@@ -20,7 +20,7 @@ export default class About extends Component {
                         </p>
                     </div>
                     <div className="col-lg-12 col-xl-12 col-md-12 col-sm-12 p-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
-                        <div className="col-6 text-right">
+                        <div className="col-lg-6 col-xl-6 col-sm-12 col-md-12 text-lg-right text-xl-right">
                             <button className="btn btn-primary">Dowload Resume</button>
                         </div>
                     </div>
