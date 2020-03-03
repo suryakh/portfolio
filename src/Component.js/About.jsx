@@ -16,7 +16,7 @@ export default class About extends Component {
                             <span>Hi, I am Surya.</span>
                             <br />
                             I am trained as a Full Stack developer at Masai school in MERN stack.
-                            I am very passionate and dedicated to my work. i love building products and keep update myself along with the changing technologies. I acquired hands-of experience with long hours of coding at Masai school
+                            I am very passionate and dedicated to my work. I love building products and keep update myself along with the changing technologies. I acquired hands-on experience with long hours of coding at Masai school
                         </p>
                     </div>
                     <div className="col-lg-12 col-xl-12 col-md-12 col-sm-12 p-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
