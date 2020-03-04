@@ -56,17 +56,18 @@ class Navbardiv extends React.Component {
   render() {
     return (
       <>
-        <div>
-          <div className="divup">
+        <div className="bg-white">
+          <div className="divup bg-white">
             <div className="text-left">
               <button className="divbtn btn btn-light" onClick={this.add}><img src={menuimg} /></button>
 
             </div>
           </div>
-          <nav id="navbar">
-            <div className={`${this.state.navbar} navbarcollapse`} id="collapsed">
+          <nav id="navbar" className="">
+            <div className={`navbarcollapse`} id="collapsed">
+              <div></div>
               {this.state.nav_list.map((ele) =>
-                <div className="col-lg-2 col-xl-2 col-md-12 col-sm-12"> <li className="nav-item" id={ele.id} data-ref={ele.data_ref}><a className="nav-link" href={`#${ele.data_ref}`} onClick={this.add}>{ele.data_ref}</a></li></div>
+                <div className="col-lg-2 col-xl-2 col-md-12 col-sm-12"> <li style={{"width":"300px"}} className="nav-item" id={ele.id} data-ref={ele.data_ref}><a className="nav-link" href={`#${ele.data_ref}`} onClick={this.add}>{ele.data_ref}</a></li></div>
               )}
             </div>
           </nav>

@@ -15,6 +15,8 @@
 @media only screen and (min-width: 300px) {
     .textdiv p {
         font-size: 20px !important;
+        font-family:'Courgette', cursive;
+
     }
 }
 
@@ -28,11 +30,15 @@
 @media only screen and (min-width: 992px) {
     .textdiv p {
         font-size: 25px !important;
+        font-family:'Courgette', cursive;
+
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .textdiv p {
         font-size: 25px !important;
+        font-family:'Courgette', cursive;
+
     }
 }
