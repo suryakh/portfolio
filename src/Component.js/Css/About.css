@@ -8,6 +8,8 @@
 }
 .textdiv h1 {
     text-align: center;
+    font-family:'Courgette', cursive;
+
 }
 
 @media only screen and (min-width: 300px) {
@@ -19,6 +21,7 @@
 @media only screen and (min-width: 768px) {
     .textdiv p {
         font-size: 25px !important;
+        font-family:'Courgette', cursive;
     }
 }
 

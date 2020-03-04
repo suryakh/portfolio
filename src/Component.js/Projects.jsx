@@ -36,10 +36,10 @@ export default class Projects extends Component {
                                             <p> My first React application</p>
                                             <div className="col-12 d-flex justify-content-center">
                                                 <div className="row">
-                                                    <div className="col-3"><img style={{ height: "50px", width: "50px" }} className="img-fluid" src={htmlsvg} /></div>
-                                                    <div className="col-3"><img style={{ height: "50px", width: "50px" }} className="img-fluid" src={csssvg} /></div>
-                                                    <div className="col-3"><img style={{ height: "50px", width: "50px" }} className="img-fluid" src={boostrapsvg} /></div>
-                                                    <div className="col-3"><img style={{ height: "50px", width: "50px" }} className="img-fluid" src={reactsvg} /></div>
+                                                    <div className="col-3"><img style={{ height: "40px", width: "40px" }} className="img-fluid" src={htmlsvg} /></div>
+                                                    <div className="col-3"><img style={{ height: "40px", width: "40px" }} className="img-fluid" src={csssvg} /></div>
+                                                    <div className="col-3"><img style={{ height: "40px", width: "40px" }} className="img-fluid" src={boostrapsvg} /></div>
+                                                    <div className="col-3"><img style={{ height: "40px", width: "40px" }} className="img-fluid" src={reactsvg} /></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@ export default class Projects extends Component {
                                     <img className="img-fluid card_img" style={{ "height": "auto" }} src={TaskManager} />
                                     <div className="card_text col-12">
                                         <div className="col-12" >
-                                            <a href="#" target="blank"><h3>Task Manager</h3></a>
+                                            <a href="https://github.com/suryakh/Taskmanager/tree/master/task_list" target="blank"><h3>Task Manager</h3></a>
                                             <br />
                                             <p> My End to End backend+ front end application</p>
                                             <div className="col-12 d-flex justify-content-center">

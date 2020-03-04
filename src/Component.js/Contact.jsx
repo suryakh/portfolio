@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faPhoneAlt, faMapMarked } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhoneAlt, faMapMarked ,faHeart } from '@fortawesome/free-solid-svg-icons';
 import aos from 'aos'
 import './Css/Contactme.css'
 import {
@@ -23,6 +23,7 @@ library.add(
 export default class Contact extends Component {
     render() {
         return (
+            <div>
             <div className="container">
                 <h1 className="header" data-ref ="contact" >contact </h1>
                 <div className="content2 col-12">
@@ -58,6 +59,12 @@ export default class Contact extends Component {
                     </div>
                     </div>
             </div>
+                            <div className="container-fluid mt-5 "data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1250">
+                             <div className="col-12 text-right">
+                                <h5>Build with <FontAwesomeIcon icon={faHeart}  color="red" /> React</h5>
+                            </div>
+                            </div>
+                            </div>
         )
     }
 }
