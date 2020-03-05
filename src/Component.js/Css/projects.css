@@ -76,3 +76,10 @@
 .card:hover .card_text{
                 opacity: 1;
             }
+
+.projectdiv a{
+    display: inline-block;
+}
+/* .myspan {
+    background-color: red;
+} */
